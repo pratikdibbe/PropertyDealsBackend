@@ -1,7 +1,7 @@
 const bcrypt = require("bcrypt");
 const { isEmail } = require("validator");
 
-const User = require("../models/User");
+const User = require("../models/user");
 
 const saltRounds = 10;
 
